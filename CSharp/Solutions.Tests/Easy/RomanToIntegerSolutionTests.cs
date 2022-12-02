@@ -3,7 +3,7 @@
 namespace Solutions.Easy.Tests
 {
 	[TestClass]
-	public class RomanToIntegerTests
+	public class RomanToIntegerSolutionTests
 	{
 		[DataTestMethod]
 		[DataRow("I", 1)]
@@ -21,7 +21,7 @@ namespace Solutions.Easy.Tests
 		[DataRow("MCMXCIV", 1994)]
 		public void RomanToIntTest(string input, int expected)
 		{
-			var actual = RomanToInteger.RomanToInt(input);
+			var actual = RomanToIntegerSolution.RomanToInt(input);
 
 			Assert.AreEqual(expected, actual);
 		}

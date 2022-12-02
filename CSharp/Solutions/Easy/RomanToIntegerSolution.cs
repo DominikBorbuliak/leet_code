@@ -1,6 +1,6 @@
 ﻿namespace Solutions.Easy
 {
-	public static class RomanToInteger
+	public static class RomanToIntegerSolution
 	{
 		/// <summary>
 		/// https://leetcode.com/problems/roman-to-integer/
