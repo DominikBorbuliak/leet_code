@@ -37,14 +37,14 @@
 		/// </summary>
 		/// <param name="parenthese"></param>
 		/// <returns></returns>
-		public static bool IsCloseParenthese(char parenthese) => parenthese == ')' || parenthese == ']' || parenthese == '}';
+		private static bool IsCloseParenthese(char parenthese) => parenthese == ')' || parenthese == ']' || parenthese == '}';
 
 		/// <summary>
 		/// Returns corresponding close parenthese to provided open parenthese
 		/// </summary>
 		/// <param name="parenthese"></param>
 		/// <returns></returns>
-		public static char GetCorrespondingCloseParenthese(char parenthese)
+		private static char GetCorrespondingCloseParenthese(char parenthese)
 		{
 			return parenthese switch
 			{
