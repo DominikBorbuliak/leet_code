@@ -2,7 +2,7 @@
 
 namespace Solutions.Easy.Tests
 {
-	[TestClass()]
+	[TestClass]
 	public class ValidParenthesesSolutionTests
 	{
 		[DataTestMethod]

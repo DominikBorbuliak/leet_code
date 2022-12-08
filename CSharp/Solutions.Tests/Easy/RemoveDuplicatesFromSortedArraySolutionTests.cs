@@ -2,11 +2,11 @@
 
 namespace Solutions.Easy.Tests
 {
-	[TestClass()]
+	[TestClass]
 	public class RemoveDuplicatesFromSortedArraySolutionTests
 	{
 		[DataTestMethod]
-		[DataRow(new int[] { 1, 1, 2}, new int[] { 1, 2 })]
+		[DataRow(new int[] { 1, 1, 2 }, new int[] { 1, 2 })]
 		[DataRow(new int[] { 0, 0, 1, 1, 1, 2, 2, 3, 3, 4 }, new int[] { 0, 1, 2, 3, 4 })]
 		public void RemoveDuplicatesTest(int[] input, int[] expected)
 		{

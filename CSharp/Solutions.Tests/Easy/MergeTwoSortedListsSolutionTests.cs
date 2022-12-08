@@ -2,7 +2,7 @@
 
 namespace Solutions.Easy.Tests
 {
-	[TestClass()]
+	[TestClass]
 	public class MergeTwoSortedListsSolutionTests
 	{
 		[DataTestMethod]
@@ -35,7 +35,7 @@ namespace Solutions.Easy.Tests
 
 				if (firstNode == null)
 					firstNode = actualNode;
-				
+
 				if (prevNode != null)
 					prevNode.next = actualNode;
 
