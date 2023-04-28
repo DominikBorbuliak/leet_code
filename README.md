@@ -9,3 +9,4 @@
 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)                               |   EASY    |    C#    |
 | [Remove Element](https://leetcode.com/problems/remove-element/)                                                                         |   EASY    |    C#    |
 | [Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/) |   EASY    |    C#    |
+| [Search Insert Position](https://leetcode.com/problems/search-insert-position/description/)                                             |   EASY    |    C#    |
